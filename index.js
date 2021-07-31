@@ -1,6 +1,6 @@
             // CRIANDO O BANCO DE DADO
             var MongoClient = require('mongodb').MongoClient;
-            var url = "mongodb://localhost:27017/NomeDoSeuDataBase";
+            var url = "mongodb://localhost:27017/DataBase";
             
             MongoClient.connect(url, function(err, db) {
               if (err) throw err;
